@@ -1,24 +1,29 @@
 {
-	"name": "cpp-reference-and-documentation",
-	"displayName": "Cpp Reference and Documentation",
-	"description": "Search Cpp Documentation, cppreference.com",
+	"name": "c-reference-and-documentation",
+	"displayName": "C Reference and Documentation",
+	"description": "Search C Documentation, devdocs.io/c/",
 	"version": "0.0.5",
-	"publisher": "FederAndInk",
+	"publisher": "karketh",
 	"author": {
 		"name": "kunalg",
 		"url": "https://github.com/gursahani/search-cpp-documentation.git"
 	},
 	"maintainers": [
 		{
-			"name": "FederAndInk",
-			"url": "https://github.com/FederAndInk",
-			"email": "federandink@gmail.com"
+			"name": "karketh",
+			"url": "https://github.com/karketh",
+			"email": "goldkarkian@hotmail.com"
 		}
 	],
 	"contributors": [
 		{
 			"name": "kunalg",
 			"url": "https://github.com/gursahani/search-cpp-documentation.git"
+		},
+		{
+			"name": "karketh",
+			"url": "https://github.com/karketh",
+			"email": "goldkarkian@hotmail.com"
 		},
 		{
 			"name": "FederAndInk",
@@ -29,23 +34,23 @@
 	"engines": {
 		"vscode": "^1.31.0"
 	},
-	"icon": "img/cpp_logo.png",
+	"icon": "img/c_logo.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/FederAndInk/search-cpp-documentation.git"
+		"url": "https://github.com/karketh/C-Documentation-searcher.git"
 	},
 	"categories": [
 		"Other",
 		"Programming Languages"
 	],
 	"keywords": [
-		"cppreference",
+		"creference",
 		"search",
 		"documentation",
 		"docs",
 		"devdocs",
 		"cpp",
-		"c++",
+		"c",
 		"reference"
 	],
 	"activationEvents": [
@@ -58,7 +63,7 @@
 		"commands": [
 			{
 				"command": "docs.start",
-				"title": " Cpp Reference",
+				"title": " C Reference",
 				"category": "Search"
 			}
 		],
